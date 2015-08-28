@@ -13,7 +13,7 @@ func GetHexArray() []byte {
 	if err != nil {
 		return []byte("error")
 	}
-	randNum := randInt(0, 761270)
+	randNum := randInt(0, 753420)
 	return []byte(output[randNum])
 }
 

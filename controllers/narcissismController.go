@@ -12,6 +12,6 @@ type NarcissismController struct {
 func (this *NarcissismController) Get() {
 	output := narc.GetHexArray()
 	this.Data["hex"] = string(output)
-	this.Data["xeh"] = "It's Narcissism Hex\nEmail:paincompiler@gmail.com"
+	this.Data["xeh"] = "It's the Narcissism Hex\nhttp://blog.paincompiler.us"
 	this.TplNames = "index.tpl"
 }
